@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+Lectrn is a social network that is **free**, **decentralized**, **open**, and **easy to use**.
 
-You can use the [editor on GitHub](https://github.com/lectrn/lectrn.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+ * **[Gratis](https://en.wikipedia.org/wiki/Gratis_versus_libre):** anyone can use Lectrn at no monetary cost.
+ * **[Libre](https://en.wikipedia.org/wiki/Gratis_versus_libre):** anyone can use and improve upon Lectrn with little restriction.
+ * **Decentralized:** Lectrn is made out of instances hosted by individuals, instead of one big central instance (e.g. Twitter and Facebook) hosted by a corporation. This means that you can choose who to trust with your data, and that the rules are being made by individuals, not corporations.
+ * **Open:** anyone can host a Lectrn instance, and anyone can look at Lectrn source code.
+ * **Easy to use:** Lectrn maintains a database of it's instances, that helps with user onboarding.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The MVP of Lectrn will be microblogging and an OAuth platform, however we are not against implementing other types of social media into our network: we are interested in chat, blogging, video, livestream, and what have you.
 
-### Markdown
+### Status
+Lectrn is heavily under construction, and is not usable right now. In the meanwhile, you can keep up with the development on other social networks:
+ * [Twitter](https://twitter.com/lectrn) 
+ * [Facebook](https://www.facebook.com/lectrn)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Technical stuff
+The reference implementation of Lectrn will be written in Node.js. The database used will be PostgreSQL. 
 
-```markdown
-Syntax highlighted code block
+Lectrn will implement ActivityPub, WebFinger, and OAuth.
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/lectrn/lectrn.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+More details TBD.
