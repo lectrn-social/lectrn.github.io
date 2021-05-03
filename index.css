@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@700;800&family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.merriweather {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.weight-800 { 
+    font-weight: 800;
+}
+
+.weight-700 {
+    font-weight: 700;
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.center {
+    text-align: center;
+}
+
+.size-4em {
+    font-size: 4em;
+}
+
+.size-2em {
+    font-size: 2em;
+}
+
+.size-1-25em {
+    font-size: 1.25em;
+}
+
+.section {
+    padding: 10vh 0;
+}
+
+.nopad {
+    padding: 0;
+    margin: 0;
+}
+
+.buttonbar {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonbar > *:not(:last-child) {
+    margin-right: 10px;
+}
+
+.feature {
+    padding: 0 10vw 0 10vw;
+}
+
+.feature:not(:last-child) {
+    padding-bottom: 7.5vh;
+}
+
+@media (min-width:600px) {
+    .feature {
+        padding: 0 50vw 0 12.5vw;
+    }
+
+    .feature.right {
+        padding: 0 12.5vw 0 50vw;
+        text-align: right;
+    }
+}
+
+@media (min-width:961px)  {
+    .feature {
+        padding: 0 62.5vw 0 12.5vw;
+    }
+
+    .feature.right {
+        padding: 0 12.5vw 0 62.5vw;
+    }
+}
+
+.feature.right > * {
+    margin-right: auto;
+}
+
+.feature > span {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.feature > h1 {
+    margin-top: 0;
+}
